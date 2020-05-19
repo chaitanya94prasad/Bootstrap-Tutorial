@@ -1,9 +1,14 @@
 /****************************************************************for elements*****************************************************/
+
+body{
+  font-family: "Montserrat";
+}
+
 h1{
-  font-family: "Montserrat-Black";
+  font-family: "Montserrat";
+  font-weight: 900;
   line-height: 1.5;
-  font-size: 3rem;
-  margin-top: 20%;
+  font-size: 3.5rem;
 }
 
 
@@ -11,9 +16,45 @@ h1{
 /****************************************************************Forf Ids*********************************************************/
 #title{
   background-color: #ff4c68;
+  color: #fff;
 }
 
 /****************************************************************for classes******************************************************/
 .container-fluid{
   padding: 3% 15%;
+}
+
+/* navbar styling */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+/* navbar brand styling */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* nav item(contents of drop down menu on right side top side of the screen) styling */
+.nav-item{
+  padding: 0 18px;
+}
+
+/* nav links styling */
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+/* download button styling using custm class */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image styling */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
 }
