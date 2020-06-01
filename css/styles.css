@@ -58,3 +58,32 @@ h1{
   width: 60%;
   transform: rotate(25deg);
 }
+
+.feature-sections{
+  margin: 9rem 0 0 0;
+}
+
+.feature-elements{
+  text-align: center;
+  padding: 0 7rem 0 7rem;
+}
+
+.feature-icons{
+  font-size: 3.5rem;
+  padding-bottom: 0.5rem;
+  color: #ef8172;
+}
+
+.feature-icons:hover{
+  color: #ff4c68;
+}
+
+.featur-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.feature-description{
+  color: #8f8f8f;
+}
