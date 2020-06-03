@@ -38,9 +38,20 @@ h2{
   padding-bottom: 3%;
 }
 
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
 /****************************************************************for classes******************************************************/
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* navbar styling */
@@ -76,10 +87,8 @@ h2{
 .title-image{
   width: 60%;
   transform: rotate(25deg);
-}
-
-.feature-sections{
-  padding: 7% 15%;
+  position: absolute;
+  right: 30%;
 }
 
 .feature-elements{
@@ -88,7 +97,7 @@ h2{
 }
 
 .feature-icons{
-  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
   color: #ef8172;
 }
 
@@ -119,4 +128,18 @@ h2{
 
 .carousel-item{
   padding: 7% 15%;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
 }
