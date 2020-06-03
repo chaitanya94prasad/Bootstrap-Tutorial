@@ -18,6 +18,13 @@ h2{
   line-height: 1.5;
 }
 
+h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
 
 
 /****************************************************************Forf Ids*********************************************************/
@@ -47,6 +54,17 @@ h2{
   padding: 7% 15%;
   background-color: white;
   position: relative;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+#footer{
+  text-align: center;
+  padding: 3% 18% 1%;
 }
 
 /****************************************************************for classes******************************************************/
@@ -143,3 +161,19 @@ h2{
     transform: rotate(0);
   }
 }
+
+.footer-icons{
+  margin: 2%;
+}
+
+.footer-text{
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: grey;
+}
+
+/* .cta-head{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+} */
